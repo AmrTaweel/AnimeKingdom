@@ -8,3 +8,5 @@ Specail thing in Anime Kingdom app :
 2-You can find beset upcoming Anime.
 
 3-You can what Anime Airing in week day.
+
+4-You can get more information when you click on Anime. 
