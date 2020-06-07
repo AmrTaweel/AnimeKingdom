@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+                android:title="Top Upcoming Anime" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="Top Airing Anime" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:title="Top Anime TV Series" />
+        <item
+            android:id="@+id/nav_tools"
+            android:title="Top Anime Movies" />
+        <item
+            android:id="@+id/nav_share"
+            android:title="Top Anime OVA Series" />
+        <item
+            android:id="@+id/nav_specail"
+            android:title="Top Anime Specails"/>
+        <item android:id="@+id/nav_series"
+              android:title="Top Anime Series"/>
+
+    </group>
+    <item android:title="Schedule">
+        <menu>
+            <item android:title="Monday"
+             android:id="@+id/nav_monday"   />
+            <item android:title="Tuesday"
+                android:id="@+id/nav_tuesday"/>
+            <item android:title="Wednesday"
+                android:id="@id/nav_wednesday"/>
+            <item android:id="@+id/nav_thuresday"
+                android:title="Thursday"/>
+            <item android:id="@+id/nav_friday"
+                android:title="Friday"/>
+            <item android:id="@+id/nav_saturday"
+                android:title="Saturday"/>
+            <item android:id="@+id/nav_sunday"
+                android:title="Sunday"/>
+
+
+        </menu>
+    </item>
+
+</menu>
+

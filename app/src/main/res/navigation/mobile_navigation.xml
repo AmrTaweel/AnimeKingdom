@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="programfiles.TopupcomingAnime.TopUpcomingAnimeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/topupcoming" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="programfiles.TopAiringAnime.TopAiringAnimeFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/topairing" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="programfiles.AnimeTV.TVAnimeFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/tv" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="programfiles.AnimeMovieFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/animemovie" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="programfiles.ova.ovaFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/ova" />
+    <fragment
+        android:id="@+id/nav_specail"
+        android:label="Top Anime Specail"
+        android:name="programfiles.SpecailFragment"
+        tools:layout="@layout/specail"/>
+    <fragment android:id="@+id/nav_series"
+        android:label="Top Anime Series"
+        tools:layout="@layout/top_series"
+        android:name="programfiles.TopSeiries"
+        />
+
+    <fragment
+        android:id="@+id/nav_monday"
+        android:label="Monday"
+        tools:layout="@layout/monday"
+        android:name="programfiles.MondayFragment"/>
+    <fragment android:id="@+id/nav_tuesday"
+        android:label="Tuesday"
+        tools:layout="@layout/tuesday"
+        android:name="programfiles.TuesdayFragment"/>
+    <fragment
+        android:label="Wednesday"
+        android:id="@+id/nav_wednesday"
+        tools:layout="@layout/wenesdays"
+        android:name="programfiles.wenesdayFragment"/>
+    <fragment android:label="Thursday"
+        android:id="@+id/nav_thuresday"
+        tools:layout="@layout/thuresday"
+        android:name="programfiles.ThursdayFragment"/>
+    <fragment android:id="@+id/nav_friday"
+              android:label="Friday"
+              tools:layout="@layout/friday"
+              android:name="programfiles.FridayFragment"  />
+    <fragment android:id="@+id/nav_saturday"
+              android:label="Saturday"
+              tools:layout="@layout/saturday"
+        android:name="programfiles.SaturdayFragment"/>
+    <fragment android:id="@+id/nav_sunday"
+              android:label="Sunday"
+              android:name="programfiles.SundayFragment"
+              tools:layout="@layout/sunday"  />
+</navigation>
